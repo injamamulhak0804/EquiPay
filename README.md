@@ -34,7 +34,7 @@
 
 ## 📁 Project Structure
 
-
+```
 equipay-backend/
 ├── src/
 │   ├── config/           # MongoDB connection, environment setup
@@ -72,7 +72,7 @@ equipay-backend/
 ├── tsconfig.json
 ├── README.md
 
-
+```
 
 
 
