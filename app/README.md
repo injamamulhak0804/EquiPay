@@ -35,6 +35,42 @@
 ## 📁 Project Structure
 
 
+equipay-backend/
+├── src/
+│   ├── config/           # MongoDB connection, environment setup
+│   │   └── db.ts
+│
+│   ├── controllers/      # Logic for each route (business logic)
+│   │   └── user.controller.ts
+│   │   └── expense.controller.ts
+│
+│   ├── models/           # Mongoose schemas/models
+│   │   └── user.model.ts
+│   │   └── expense.model.ts
+│
+│   ├── routes/           # API route definitions
+│   │   └── user.routes.ts
+│   │   └── expense.routes.ts
+│
+│   ├── middlewares/      # Middleware (auth, error handler, logger, etc.)
+│   │   └── auth.middleware.ts
+│   │   └── error.middleware.ts
+│
+│   ├── utils/            # Utility functions (JWT, validators, etc.)
+│   │   └── generateToken.ts
+│   │   └── logger.ts
+│
+│   ├── types/            # Custom TypeScript types/interfaces
+│   │   └── user.interface.ts
+│
+│   ├── app.ts            # Express app config (middlewares, routes)
+│   └── server.ts         # Starts the server
+│
+├── .env                  # Environment variables
+├── .gitignore
+├── package.json
+├── tsconfig.json
+├── README.md
 
 
 
